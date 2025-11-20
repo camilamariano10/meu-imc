@@ -2,21 +2,6 @@
 
 Uma calculadora de **Índice de Massa Corporal (IMC)** moderna, desenvolvida em **React + Vite**, com design exclusivo, tema claro/escuro persistente e experiência totalmente fluida.
 
-<img src="./preview/light-mode.png" alt="Modo Claro" width="100%"/>
-<img src="./preview/dark-mode.png" alt="Modo Escuro" width="100%"/>
-
-> Single Page Application (SPA) • 100% responsiva • Sem recarregamento de página
-
-## 🎨 Identidade Visual
-
-Paleta de cores personalizada e aconchegante:
-
-**Modo Claro**  
-![#F2E0DC](https://via.placeholder.com/15/F2E0DC/000000?text=+) `#F2E0DC` Pêssego • ![#F2D0E9](https://via.placeholder.com/15/F2D0E9/000000?text=+) `#F2D0E9` Rosa • ![#ACF2DE](https://via.placeholder.com/15/ACF2DE/000000?text=+) `#ACF2DE` Menta
-
-**Modo Escuro**  
-![#0D0D0D](https://via.placeholder.com/15/0D0D0D/000000?text=+) `#0D0D0D` Fundo • ![#F2BBBB](https://via.placeholder.com/15/F2BBBB/000000?text=+) `#F2BBBB` Rosa Médio • Menta com alto contraste
-
 ## ✨ Funcionalidades
 
 - Cálculo preciso de IMC com classificação OMS
@@ -52,7 +37,7 @@ npm run dev
 Acesse: http://localhost:5173
 
 ## 🌳 TreeView
-
+```
 └── 📁 meu-imc
     ├── 📁 public
     │   └── 🖼️ vite.svg
@@ -72,14 +57,17 @@ Acesse: http://localhost:5173
     ├── 📄 postcss.config.js
     ├── 📄 tailwind.config.js
     └── 📄 vite.config.js
+```
 
 ## 📂 Estrutura Principal
+```
 plaintextsrc/
 ├── App.jsx          → Lógica completa: telas, navegação e contexto
 ├── context/         → ThemeContext (Dark/Light Mode)
 ├── components/      → Componentes reutilizáveis
 ├── main.jsx         → Entrypoint do React
 └── index.css        → Configurações globais do Tailwind
+```
 
 ## 🤝 Contribuições
 
@@ -88,6 +76,7 @@ Fique à vontade para:
 Abrir uma Issue com sugestões ou bugs
 Fazer um Fork e enviar um Pull Request
 
+<div>
+    <p style="text-align:center;">Feito com 💙 por Camila Mariano • Projeto para estudo e portfólio</p>
+</div>
 Qualquer melhoria é super bem-vinda! ✨
-
-<p style="text-align: center;">Feito com 💙 por Camila Mariano • Projeto para estudo e portfólio </p>
